@@ -1,0 +1,251 @@
+@media (max-width: 900px){
+    .block{
+        height: 900px;
+    }
+    .header__columns{
+        display: block
+    }
+    .header__left{
+        padding-left: 100px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    
+    .item1{
+        width: 800px;
+        height: 900px;
+    }
+    .item2{
+        width: 800px;
+    }
+    .services{
+        width: 800px;
+    }
+    .services__items{
+        flex-direction: column;
+    }
+    .services__menu{
+        display: flex;
+        justify-content: center;
+    }
+    .sales__container{
+        width: 800px;
+    }
+    .sales__container-top, .sales__container-bottom{
+        width: 400px;
+        display: table;
+        padding-left: 100px;
+        
+    }
+    .test{
+        height: 1300px;
+        width: 800px;
+    }
+    .test__box{
+        background-color: #333333;
+        width: 800px;
+    }
+    .testimg{
+        width: 800px;
+        
+    }
+    .revievs__container{
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .container__item1{
+        
+    }
+    .work{
+        width: 800px;
+    }
+    .work__columns{
+        flex-direction: column;
+        padding-left: 200px;
+    }
+    .work__columns-right{
+        padding-top: 20px;
+    }
+    .work__text{
+        margin-left: 180px;
+    }
+    .discount__right{
+        transform: translate(-250px, -100px);
+    }
+    .about__columns{
+        width: 800px;
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .footer__contant{
+        width: 800px;
+    }
+    .footer__contacts{
+        transform: translate(-100px, 0px);
+        width: 400px;
+    }
+    .reviev__btn-position{
+        margin-top: 1200px;
+    }
+    .form-container1{
+        padding-top: 670px;
+    }
+}
+
+@media (max-width: 420px){
+    
+    .header__columns{
+        display: block;
+        
+    }
+    .header__left{
+     text-align: center;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    
+    .item1{
+        width: 400px;
+        height: 900px;
+    }
+    .item2{
+        width: 400px;
+    }
+    .veip{
+        width: 350px;
+    }
+    .header__title{
+        width: 300px;
+        padding-right: 30px;
+    }
+    .header__text{
+        width: 300px;
+        height: 100px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+    .services{
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .services__items{
+        flex-direction: column;
+    }
+    .services__menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .sales__container{
+        width: 400px;
+    }
+    .sales__container-top, .sales__container-bottom{
+        
+        display: table;
+        padding-left: 0px;
+        
+    }
+    .salesimg1{
+        width: 80%;
+    }
+    .salesimg2{
+        width: 40%;
+    }
+    .test{
+        width: 400px;
+        height: 1400px;
+    }
+    .test__box{
+        background-color: #333333;
+        width: 400px;
+    }
+    .testimg{
+        width: 400px;
+        
+    }
+    .revievs__container{
+        width: 300px;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .container__item1{
+        width: 160%;
+    }
+    .container__item2{
+        width: 160%;
+        margin-bottom: 10px;
+    }
+    .revievs__container-right{
+        width: 155%;
+        height: 100%;
+        margin-left: 10px;
+    }
+    .work{
+        width: 400px;
+        
+    }
+    .work__container{
+        width: 400px;
+        overflow: hidden;
+    }
+    .work__columns{
+        flex-direction: column;
+        max-width: 400px;
+        padding-left: 0;
+    }
+    .work__columns-right{
+        padding-top: 20px;
+    }
+    .work__text{
+        margin-left: 10px;
+        width: 380px;
+    }
+    .discount__columns{
+        width: 400px;
+    }
+    .discount__right{
+        
+        transform: translate(-430px, -200px);
+    }
+    .discount__title{
+        width: 380px;
+    }
+    .about__columns{
+        width: 400px;
+        flex-direction: column;
+        padding-left: 5px;
+    }
+    .about__text{
+        width: 380px;
+    }
+    .about__column-right{
+        width: 380px;
+    }
+    .about__column-right img{
+        padding-left: 20px;
+        width: 380px;
+    }
+    .footer__contant{
+        width: 400px;
+        padding-left: 20px;
+    }
+    .footer__logo{
+
+    }
+    .footer__contacts{
+        transform: translate(-20px, 0px);
+        width: 250px;
+    }
+    .reviev__btn-position{
+        margin-top: 1300px;
+    }
+    .form-container1{
+        padding-top: 710px;
+    }
+    .form-container{
+        left: 0;
+        text-align: left;
+    }
+}
