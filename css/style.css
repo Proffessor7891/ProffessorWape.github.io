@@ -6,6 +6,7 @@
 
 body {
   width: 1055px;
+  margin: 0 auto;
 }
 
 .block {
@@ -21,7 +22,7 @@ body {
 }
 
 .item2 {
-  position: absolute;
+  position: relative;
 }
 
 .header__columns {
@@ -31,7 +32,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 5%;
+  padding: 0 80px;
 }
 
 .veip {
@@ -67,8 +68,14 @@ body {
   line-height: 25px;
   color: #ffffff;
   font-weight: 800;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   text-align: center;
   display: block;
+}
+
+.default__btn:hover {
+  background-color: chartreuse;
 }
 
 .logo {
@@ -81,7 +88,7 @@ body {
   position: relative;
   width: 100%;
   background-color: #333333;
-  height: 400px;
+  height: 500px;
 }
 
 .services__items {
@@ -91,7 +98,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 5%;
+  padding: 55px 80px;
 }
 
 .services__item-text {
@@ -104,14 +111,9 @@ body {
 }
 
 /*sales*/
-.test {
-  height: 800px;
-  background-color: #333333;
-}
-
 .sales__container {
   background-color: #333333;
-  padding: 0 50px;
+  padding: 0 80px;
 }
 
 .sales__title {
@@ -144,6 +146,11 @@ body {
 }
 
 /*test*/
+.test {
+  height: 800px;
+  background-color: #333333;
+}
+
 .test__box {
   position: absolute;
 }
@@ -161,6 +168,7 @@ body {
   font-weight: 700;
   margin: 40px 50px;
   position: relative;
+  padding-left: 30px;
 }
 
 .revievs__container {
@@ -168,7 +176,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  padding: 0 50px;
+  padding: 0 80px;
 }
 
 .container__item1 {
@@ -236,6 +244,7 @@ body {
 .work__container {
   position: absolute;
   width: 1055px;
+  overflow: hidden;
 }
 
 .work__title {
@@ -247,7 +256,7 @@ body {
 }
 
 .work__columns {
-  padding-left: 80px;
+  padding: 0 80px;
   width: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,13 +272,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 20px;
 }
 
 .work__item {
   position: relative;
   width: 225px;
   height: 37px;
-  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,6 +297,7 @@ body {
   line-height: 21px;
   color: #ffffff;
   font-weight: 400;
+  width: 190px;
   margin-top: 40px;
 }
 
@@ -386,7 +396,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #222222;
-  padding-left: 80px;
+  padding: 0 80px;
   width: 1055px;
 }
 
@@ -398,8 +408,12 @@ a {
 }
 
 .footer__contacts {
-  padding-top: 20px;
+  padding: 20px;
   width: 50%;
+}
+
+.footer__telegram {
+  padding: 0 15px;
 }
 
 /*form*/
@@ -418,14 +432,11 @@ a {
 
 .form-container {
   position: fixed;
-  width: 500px;
+  width: 1050px;
   height: 400px;
-  padding: 20px;
   text-align: center;
-  background: rgba(51, 51, 51, 0.5);
-  padding: 100px;
-  top: 250px;
-  left: 200px;
+  background: rgba(51, 51, 51, 0.9);
+  top: 50px;
 }
 
 .form {
@@ -434,7 +445,6 @@ a {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 500px;
-  position: relative;
 }
 
 .form__field {
@@ -444,10 +454,10 @@ a {
 
 .form__error {
   color: red;
-  text-align: left;
-  font-size: 12px;
+  text-align: center;
+  font-size: 18px;
   display: block;
-  margin-top: 3px;
+  margin-top: 5px;
   display: none;
 }
 
@@ -472,4 +482,13 @@ input:invalid:not(:placeholder-shown) {
 
 input:invalid:not(:placeholder-shown) + .form__error {
   display: block;
+}
+
+.form__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
