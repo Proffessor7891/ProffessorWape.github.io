@@ -102,9 +102,12 @@
     .form-container1{
         padding-top: 670px;
     }
+    .form-container{
+        width: 800px;
+    }
 }
 
-@media (max-width: 420px){
+/*@media (max-width: 420px){
     
     .header__columns{
         display: block;
@@ -259,7 +262,7 @@
         left: 0;
         text-align: left;
     }
-}
+}*/
 @media (max-width: 320px){
     .header__columns{
         padding: 0;
@@ -477,6 +480,7 @@
     }
     .form-container{
         left: 0;
-        text-align: left;
+        text-align: center;
+        width: 300px;
     }
 }
