@@ -9,12 +9,6 @@ body{
     margin: 0 auto;
     
 }
-.container{
-    
-    
-    
-    
-}
 
 .block{
     position: relative;
@@ -34,9 +28,7 @@ body{
     justify-content: space-between;
     padding: 0 80px;
 }
-.header__left{
-    
-}
+
 .veip{
     max-width: 470px;
 }
@@ -213,12 +205,8 @@ margin-left: 15px;
     background-color: #333333;
     
 }
-.work__box{
-    
-    
-}
+
 .work__container{
-    position: absolute;
     width: 1055px;
     overflow: hidden;
 }
@@ -246,12 +234,11 @@ font-weight: 700;
     position: relative;
     width: 225px;
 height: 37px; 
-
+    flex-direction: column;
 display: flex;
 
 }
 .work__item-title{
-    position: absolute;
     font-size: 25px;
 line-height: 21px;
 color: #01a9ff;
@@ -265,7 +252,7 @@ line-height: 21px;
 color: #ffffff;
 font-weight: 400;
 width: 190px;
-margin-top: 40px;
+margin-top: 20px;
 }
 .work__text{
     position: relative;
